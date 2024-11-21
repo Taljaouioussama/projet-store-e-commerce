@@ -1,0 +1,84 @@
+/* Conteneur principal */
+.container {
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+/* Panier */
+h4 span.text-primary {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.list-group-item {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+}
+
+.list-group-item .text-muted {
+    color: #007bff;
+}
+
+.card p-2 {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.card .input-group {
+    margin-top: 10px;
+}
+
+.card .btn-secondary {
+    background-color: #28a745;
+    border: none;
+}
+
+/* Adresse de facturation */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.form-check-label {
+    font-size: 1rem;
+}
+
+/* Sélection des cartes de paiement */
+.form-check-input {
+    margin-left: 10px;
+}
+
+.my-4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Bouton de validation */
+.w-100 {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .col-md-5 {
+        margin-bottom: 30px;
+    }
+
+    .list-group-item {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    .w-100 {
+        font-size: 1rem;
+    }
+}
